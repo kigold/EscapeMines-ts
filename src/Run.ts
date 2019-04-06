@@ -4,7 +4,7 @@ import * as readLine from "readline";
 import LocationData from "./Data/LocationData";
 import { DirectionEnum, TurtleStatusEnum } from "./Enums";
 
-const filePath = "C:\\Users\\kingslee\\Desktop\\turtle.txt"
+const filePath = "./game-setting.txt"
 const Run = () => {
     let line:string;
     let counter:number = 0;
